@@ -647,20 +647,16 @@ html {
   margin-bottom: 2rem;
 }
 
-.mt-8 {
-  margin-top: 2rem;
-}
-
 .flex {
   display: flex;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .h-full {
   height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .w-\[50\%\] {
@@ -696,18 +692,6 @@ html {
 }
 
 @media (min-width: 1021px) {
-  .lg\:mt-2 {
-    margin-top: 0.5rem;
-  }
-
-  .lg\:mt-10 {
-    margin-top: 2.5rem;
-  }
-
-  .lg\:w-\[30\%\] {
-    width: 30%;
-  }
-
   .lg\:w-\[40\%\] {
     width: 40%;
   }
@@ -718,14 +702,6 @@ html {
 }
 
 @media (min-width: 768px) and (max-width: 1020px) {
-  .md\:w-\[50\%\] {
-    width: 50%;
-  }
-
-  .md\:w-\[80\%\] {
-    width: 80%;
-  }
-
   .md\:w-\[40\%\] {
     width: 40%;
   }
