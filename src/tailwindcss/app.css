@@ -11,10 +11,26 @@
 
 @layer components {
     .btn {
-        @apply rounded-full border-[1px] border-black text-center px-12 py-2 my-5 font-bold;
+        @apply rounded-full border-[1px] border-black text-center px-12 py-2 my-3 font-bold;
     }
 
-    .img {
-        @apply bg-[url('./src/img/busos.jpg')];
+    .btn-ca {
+        @apply hover:bg-gradient-to-r from-[#000000] to-[#ffffff] hover:text-white hover:ease-in-out hover:border-white;
+    }
+
+    .btn-wa {
+        @apply hover:bg-gradient-to-r from-[#075e54] via-[#128c7e] to-[#25d366] hover:text-white hover:ease-in-out hover:border-white;
+    }
+
+    .btn-in {
+        @apply hover:bg-gradient-to-r from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] hover:text-white hover:ease-in-out hover:border-white;
+    }
+
+    .btn-fa {
+        @apply hover:bg-gradient-to-r from-[#3b5998] via-[#8b9dc3] to-[#dfe3ee] hover:text-white hover:ease-in-out hover:border-white;
+    }
+
+    .btn-tik {
+        @apply hover:bg-gradient-to-r from-[#040404] via-[#fe2858] to-[#2af0ea] hover:text-white hover:ease-in-out hover:border-white;
     }
 }

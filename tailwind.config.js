@@ -3,9 +3,9 @@ module.exports = {
   content: ['./index.html'],
   theme: {
     screens: {
-      'lg': {'max:': '1024px'},
-      'md': {'max:': '768px'},
-      'sm': {'max:': '767px'}
+      'lg': {'min': '1021px'},
+      'md': {'min': '768px', 'max': '1020px'},
+      'sm': {'max': '767px'}
     },
     extend: {
     },
