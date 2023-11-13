@@ -1,0 +1,17 @@
+{
+  "name": "urbanclair",
+  "version": "1.0.0",
+  "description": "Pasarela de redes",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/tailwindcss/app.css -o ./build/css/app.css --watch"
+  },
+  "author": "Urban Clair",
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/urbanclair/urbanclair.git"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
