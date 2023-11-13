@@ -692,8 +692,16 @@ html {
 }
 
 @media (min-width: 1021px) {
+  .lg\:w-auto {
+    width: auto;
+  }
+
   .lg\:w-\[40\%\] {
     width: 40%;
+  }
+
+  .lg\:w-\[30\%\] {
+    width: 30%;
   }
 
   .lg\:justify-center {
